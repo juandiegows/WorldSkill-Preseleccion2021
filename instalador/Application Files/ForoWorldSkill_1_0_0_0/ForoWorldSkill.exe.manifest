@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ForoWorldSkill.exe" version="1.0.0.0" publicKeyToken="27be031ca1df659e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ForoWorldSkill" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ForoWorldSkill.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ForoWorldSkill.exe" size="76760">
+      <assemblyIdentity name="ForoWorldSkill" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R1NlKG+rUGg/aRMHhzgPhJ7W+S6ksMg27v/6i5+ReCw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ForoWorldSkill.exe.config" size="1381">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yCktUGikdURLfDpymvGDkIn6gn/RUrNNCfQB/N7dSMI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ForoWorldSkill.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aBYpMrbvpZHqp6E7dALVAspvsoVd6OW9vFe6SjSOqfk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ForoWorldSkill_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gl0vEI1Gk4d5UTTVT/VHgwe1qmboKFoRREOJ8uj5hoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ModelForoWorldSkill.Context.tt" size="22943">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wePAIdngxkollAHSK3IA6RfU5I6KWjVbL7nvlNdYuXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ModelForoWorldSkill.tt" size="25288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XPQ+8GKYTceU8Hx4TZp+59n7we712MHSzE/Ld465C7U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2AQAEQ3\Sena" issuerKeyHash="739a0a5daa44b84f83ab252b5d78e4cbe24b7550" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d+63cGk5+vjVenMbJA2teugKr021K8fiw08LJ93f6no=</DigestValue></Reference></SignedInfo><SignatureValue>vhipeRMXsZY9kxUBGCoFMiFT4XNeMKJjZBS76R9YKBuY5YcbFwntR4jTn9jQZ1QRwN8q/60jwKID7u8XXuTwwKqCBxnnRv5VHjaJkjiJ4AL/Bz3UTIhq5bzoGJpfNKy+uGw6xAzNEq+qOgVgGZHbHLar388+BlIs9ZUEJrmtYD0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4p8LOCso2GMEOQkRkxDO/nBtQassLA9nhSiKjZm5m2A4MRF5no8xQlv9giclW5fO08a+aGVwpKH+IX8PMSxw4lx1HwrR3uPF94PbGKoPZXS9TDDrzH5VBbdXEukQV1LcC+9mWnPcyzJdkhU1bkJ3v6fwmeJhs+l+uqE719+IsSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7aeadfdd270b4fc3e2c72bb54daf0ae87aad0d241b737ad5f8fa396970b7ee77" Description="" Url=""><as:assemblyIdentity name="ForoWorldSkill.exe" version="1.0.0.0" publicKeyToken="27be031ca1df659e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2AQAEQ3\Sena</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>B+NNXtqDjkRbTIzChmhaHYAhaGPV78n+DwU9IqIISt0=</DigestValue></Reference></SignedInfo><SignatureValue>SxK0fZxKqKBJ3ebn9VH8N/nA4bqTl77h18udcyDRY9GUBc0oV1vv6qOBbgOLY/UEiya5gf8zJ/G8Xbv+yDBy9nACe2oduIX/ZhyCJqrTvm9S5Kyrt9fHun9GyZoZQDN9KJxl1TbGcSeWJ3mmHVp4+XK8XbIfdQnOc/IZDeKySFU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4p8LOCso2GMEOQkRkxDO/nBtQassLA9nhSiKjZm5m2A4MRF5no8xQlv9giclW5fO08a+aGVwpKH+IX8PMSxw4lx1HwrR3uPF94PbGKoPZXS9TDDrzH5VBbdXEukQV1LcC+9mWnPcyzJdkhU1bkJ3v6fwmeJhs+l+uqE719+IsSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQHPPBTWlWQrhFgAnWd/BMhTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADIAQQBRAEEARQBRADMAXABTAGUAbgBhMB4XDTIxMDcyODE1NTU0N1oXDTIyMDcyODIxNTU0N1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQAyAEEAUQBBAEUAUQAzAFwAUwBlAG4AYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4p8LOCso2GMEOQkRkxDO/nBtQassLA9nhSiKjZm5m2A4MRF5no8xQlv9giclW5fO08a+aGVwpKH+IX8PMSxw4lx1HwrR3uPF94PbGKoPZXS9TDDrzH5VBbdXEukQV1LcC+9mWnPcyzJdkhU1bkJ3v6fwmeJhs+l+uqE719+IsSECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAgjtgVEYXqMfG7JFZJCBJhrqJM17uniOwRbbbw9bJdHzo2s8GGW70WJQSyiA7UR/DIHI+1zqEfw4WrqQwjD3XAgXDs2CHyZwLqouUoatucAYfqr5xdH5Q8MDRF334Oi8E76QaA+/MZlvjKte7QN8iS5mpIsCERTpafW1lujPUzig==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
